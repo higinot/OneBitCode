@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex-grid-container {
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 3px;
+    background-color: black;
+    justify-content: center;
+    padding: 1vh;
+    box-sizing: border-box;
+
+}
+
+.flex-grid-container .flex-itens {
+    text-align: center;
+    background-color: aliceblue;
+        
+}
+
+body h1 {
+    text-align: center;
+}
+
+.flex-grid-container .item1 {
+    grid-column: 1/3;
+}
